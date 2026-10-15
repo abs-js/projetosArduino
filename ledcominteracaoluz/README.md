@@ -16,8 +16,10 @@ Como montar:
 5. Conecte o outro terminal dele em um dos terminais do fotoresístor(qualquer um).
 6. O outro lado deve ser conectado ao VCC(5V) do arduíno.
 7. No ponto de encontro entre o terminal anterior do fotoresístor e no resístor de 10K oms, puxe um fio até o A0 do seu arduíno.
-8. Agora, faz um pequeno circuito de acender LED com o que sobrou, mas com o VCC conectado ao pino definido pelo código(padrão: 9).
-9. Agora, conecte seu arduíno ao seu computador e empurre meu código:
+8. Agora, faz um pequeno circuito de acender LED com o que sobrou, mas com o VCC conectado ao pino definido pelo código(padrão: Pino 9).
+> [!IMPORTANT]
+> Apenas permitido pinos pwm(que tenha um ~): 3, 5, 6, 9, 10 e 11(No Arduino UNO)
+9. Agora, conecte seu arduíno ao seu computador e empurre meu código disponível [aqui](https://github.com/abs-js/projetosArduino/blob/main/ledcominteracaoluz/codigo-led-sensor-de-luz.ino).
 > [!IMPORTANT]
 > Você precisa do arduino IDE para empurrar o código.
 > Caso não tenha, podes instalar ou usar o site: https://app.arduino.cc/
